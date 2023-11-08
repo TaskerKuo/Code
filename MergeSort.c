@@ -19,6 +19,9 @@ void merge(int* arr, int st, int mid, int end){
 
     while (i<len1) arr[k++] = sub1[i++];
     while (j<len2) arr[k++] = sub1[j++];
+
+    free(sub1);
+    free(sub2);
 }
 
 void Mergesort(int* arr, int st, int end){
