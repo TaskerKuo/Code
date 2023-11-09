@@ -1,7 +1,7 @@
 //Calculator for arithmetic operation
 //intput : string 
 //output : long lon double
-//example : "((()))" -> 0.
+//example : "(())" -> ""
 //          "1+2+3=" -> 6.
 //          "(1+2)*3=+4=" -> 9. 13.
 #include<stdio.h>
